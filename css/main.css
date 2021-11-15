@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+footer {
+  background-color: #f1e8db;
+  height: 12rem; }
+  footer a {
+    text-decoration: none;
+    color: black; }
+  footer li {
+    list-style-type: none; }
