@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 /*--------------RESPONSIVE----------*/
@@ -66,6 +67,48 @@ h3 {
   width: 80%;
   color: #745739;
   margin-bottom: 2rem; }
+
+/*Seccion Catálogo*/
+.header__catalogo {
+  font-size: 5rem;
+  font-family: 'EB Garamond', serif;
+  margin-left: 35%;
+  color: #745739;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  width: 50%; }
+  .header__catalogo div {
+    margin-left: 40%; }
+
+.seccion__productos {
+  height: 700px; }
+
+.texto__catalogo {
+  margin-left: 50%;
+  width: 100%; }
+
+.imagen-producto {
+  margin-bottom: 2rem; }
+  .imagen-producto img {
+    width: 500px; }
+
+.boton-producto {
+  background-color: #FFF9F4;
+  font-family: 'EB Garamond', serif;
+  width: 150px;
+  height: 35px;
+  margin-left: 3rem;
+  border: none;
+  box-shadow: 5px 5px 9px #fae7d8; }
+  .boton-producto a {
+    color: black;
+    text-decoration: none; }
+
+.leyendas-productos {
+  line-height: 12px; }
+
+.producto {
+  margin-bottom: 4rem; }
 
 header nav {
   width: 100%;

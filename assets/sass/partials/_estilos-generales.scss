@@ -66,3 +66,49 @@ h3{
     color: $brown;
     margin-bottom: 2rem;
 }
+
+/*Seccion Catálogo*/
+.header__catalogo{
+    font-size: 5rem;
+    font-family: 'EB Garamond', serif;
+    margin-left:35%;
+    color: $brown;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    width:50%;
+    div{
+        margin-left: 40%;
+    }
+}
+.seccion__productos{
+    height:700px;
+}
+.texto__catalogo{
+    margin-left:50%;
+    width:100%;
+}
+.imagen-producto{
+    margin-bottom: 2rem;
+    img{
+        width:500px;
+    }
+}
+.boton-producto{
+    background-color: $veige;
+    font-family: 'EB Garamond', serif;
+    width:150px;
+    height:35px;
+    margin-left: 3rem;
+    border: none;
+    box-shadow: 5px 5px 9px #fae7d8;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+}
+.leyendas-productos{
+    line-height: 12px;
+}
+.producto{
+    margin-bottom: 4rem;
+}
