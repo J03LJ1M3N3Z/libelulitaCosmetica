@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+/*--------------RESPONSIVE----------*/
+/* extra Small Devices*/
+/*Small Devices*/
+/*Medium devices*/
+/*Large Devices*/
+a {
+  transition: all .3s ease;
+  display: inline-block; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem; }
+
+h1 {
+  font-size: 4.8rem; }
+
+h2 {
+  font-size: 3.6rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+/*Seccion Nosotros*/
+.imagen__nosotros__superior {
+  margin-top: 2rem; }
+
+.header__nosotros {
+  font-size: 6rem;
+  margin: auto;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: #745739;
+  margin-bottom: 2rem;
+  margin-top: 4rem; }
+
+.nosotros__texto__superior {
+  width: 45%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 2rem; }
+
+.seccion__caracteristicas__productos {
+  width: 45%;
+  background-color: #FFF9F4;
+  margin: auto; }
+
+.header2__nosotros {
+  font-size: 5rem;
+  margin: auto;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: #745739;
+  margin-bottom: 2rem; }
+
+.nosotros__texto__inferior {
+  width: 45%;
+  margin: auto; }
+
+.header3__nosotros {
+  font-size: 4rem;
+  margin: auto;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  width: 80%;
+  color: #745739;
+  margin-bottom: 2rem; }
+
+header nav {
+  width: 100%;
+  position: relative; }
+  header nav .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    header nav .navbar-nav .nav-item {
+      margin: 0 1rem;
+      position: relative; }
+      header nav .navbar-nav .nav-item::before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 8%;
+        background-color: #F9D6D6;
+        transition: all .3s ease; }
+      header nav .navbar-nav .nav-item .nav-link {
+        color: #000;
+        letter-spacing: .2rem; }
+      header nav .navbar-nav .nav-item:hover::before {
+        width: 100%;
+        transition: all .3s ease; }
+  header nav .logo {
+    max-width: 100px;
+    width: 100%;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4)); }
+  header nav .menu-social-header {
+    display: flex;
+    flex-direction: row; }
+    header nav .menu-social-header a {
+      display: inline-block;
+      margin: 0 1rem;
+      border-radius: 50%;
+      box-shadow: 0px 1px 2px #7d7d7d;
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      position: relative; }
+      header nav .menu-social-header a:hover {
+        background-color: #F9D6D6;
+        box-shadow: 0px 1px 2px #9EFCC4; }
+      header nav .menu-social-header a i {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
+.footer {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  background-color: #FFF9F4;
+  border-bottom: 30px solid #F9D6D6;
+  margin-top: 2rem; }
+  .footer footer {
+    width: 100%; }
+    .footer footer a {
+      text-decoration: none;
+      font-family: 'Prata', serif;
+      color: #000;
+      text-align: center; }
+    .footer footer h4 {
+      font-family: 'Prata', serif;
+      text-align: center; }
+      .footer footer h4.line {
+        text-decoration: underline; }
+    .footer footer .menu-social-header {
+      text-align: center; }
+      .footer footer .menu-social-header a {
+        display: inline-block;
+        margin: 0 1rem;
+        border-radius: 50%;
+        box-shadow: 0px 1px 2px #7d7d7d;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        position: relative; }
+        .footer footer .menu-social-header a:hover {
+          background-color: #F9D6D6;
+          box-shadow: 0px 1px 2px #9EFCC4; }
+        .footer footer .menu-social-header a i {
+          color: black;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }

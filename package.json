@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm     run build-css\"",
-    "build-bt": "node-sass --include-path scss scss-boots/bootstrap.scss css-boots/bootstrap.css",
-    "watch-bt": "nodemon -e scss -x \"npm     run build-bt\""
+    "build-css": "node-sass --include-path scss assets/sass/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
   },
   "repository": {
     "type": "git",
