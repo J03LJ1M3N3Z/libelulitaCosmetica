@@ -23,6 +23,10 @@ h2 {
 h3 {
   font-size: 2.4rem; }
 
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem; }
+
 /*Seccion Nosotros*/
 .imagen__nosotros__superior {
   margin-top: 2rem; }
@@ -99,7 +103,7 @@ h3 {
   height: 35px;
   margin-left: 3rem;
   border: none;
-  box-shadow: 5px 5px 9px #fae7d8; }
+  box-shadow: 2px 2px 3px #fae7d8; }
   .boton-producto a {
     color: black;
     text-decoration: none; }
@@ -109,6 +113,54 @@ h3 {
 
 .producto {
   margin-bottom: 4rem; }
+
+/*secciones particulares de cada producto*/
+.carrousel {
+  width: 50%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 5rem; }
+
+.carousel-control-prev-icon {
+  background-color: gray; }
+
+.carousel-control-next-icon {
+  background-color: gray; }
+
+.texto__shampoo__graso {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 4rem; }
+
+.boton-comprar {
+  width: 16rem;
+  height: 3.5rem;
+  margin-left: 25%;
+  background-color: #fff2f2;
+  border: none;
+  box-shadow: -2px -2px 3px #F9D6D6;
+  border-radius: 0 15px 0 0; }
+  .boton-comprar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem; }
+
+.banner-comprar {
+  background-color: #fff2f2;
+  text-align: center;
+  margin-top: 4rem;
+  height: 7rem; }
+  .banner-comprar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem; }
+
+.imagen__producto__individual {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 5rem; }
 
 header nav {
   width: 100%;
