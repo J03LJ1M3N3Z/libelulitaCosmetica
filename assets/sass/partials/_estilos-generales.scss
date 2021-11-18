@@ -167,3 +167,48 @@ h4{
     margin-top: 4rem;
     margin-bottom: 5rem;
 }
+
+/*Seccion contacto*/
+.contacto-titulo{
+    font-size: 5rem;
+    font-family: 'EB Garamond', serif;
+    margin-left:10%;
+    color: $brown;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+.contacto-datos{
+    margin-left: 15%;
+}
+.direccion-retiro{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+}
+.correo-electronico{
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+}
+.whatsapp{
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    &::after{
+        position: absolute;
+        top:0;
+        left:0;
+        content: " ";
+        width: 55%;
+        height: 2%;
+        background-color: $black;
+    }
+}
+.mensaje-final-contacto{
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+    margin-top: 6rem;
+    width:40%;
+    margin-bottom: 6rem;
+}
