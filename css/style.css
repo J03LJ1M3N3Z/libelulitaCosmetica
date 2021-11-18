@@ -524,7 +524,7 @@ h4 {
 .carousel-control-next-icon {
   background-color: gray; }
 
-.texto__shampoo__graso {
+.texto__producto__individual {
   width: 50%;
   margin: auto;
   margin-bottom: 4rem; }
@@ -556,6 +556,7 @@ h4 {
 
 .imagen__producto__individual {
   margin: auto;
+  width: 50%;
   margin-top: 4rem;
   margin-bottom: 5rem; }
 
