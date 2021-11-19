@@ -206,6 +206,47 @@ h4 {
   width: 40%;
   margin-bottom: 6rem; }
 
+/*Preguntas Frecuentes*/
+.header__preguntas {
+  font-size: 5rem;
+  font-family: 'EB Garamond', serif;
+  margin-left: 12%;
+  color: #745739;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  width: 50%; }
+  .header__preguntas div {
+    margin-left: 20%; }
+
+.seccion__titulo__preguntas {
+  height: 650px; }
+
+.texto__preguntas {
+  margin-left: 21%;
+  width: 30%; }
+
+.te-contamos {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem; }
+
+.seccion__preguntas {
+  width: 50%;
+  margin: auto;
+  text-align: justify; }
+
+.titulos-preguntas {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  text-align: left; }
+
+.iamgen2-preguntas {
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
+
+.ultima-pregunta {
+  margin-top: 3rem;
+  margin-bottom: 8rem; }
+
 header nav {
   width: 100%;
   position: relative; }
