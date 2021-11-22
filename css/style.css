@@ -103,7 +103,8 @@ h4 {
   height: 35px;
   margin-left: 3rem;
   border: none;
-  box-shadow: 2px 2px 3px #fae7d8; }
+  box-shadow: 2px 2px 3px #fae7d8;
+  border-radius: 0 15px 0 0; }
   .boton-producto a {
     color: black;
     text-decoration: none; }
@@ -256,22 +257,12 @@ header nav {
     justify-content: center; }
     header nav .navbar-nav .nav-item {
       margin: 0 1rem;
-      position: relative; }
-      header nav .navbar-nav .nav-item::before {
-        position: absolute;
-        content: "";
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 8%;
-        background-color: #F9D6D6;
-        transition: all .3s ease; }
+      transition: all .3s ease; }
+      header nav .navbar-nav .nav-item:hover {
+        font-weight: bold; }
       header nav .navbar-nav .nav-item .nav-link {
         color: #000;
         letter-spacing: .2rem; }
-      header nav .navbar-nav .nav-item:hover::before {
-        width: 100%;
-        transition: all .3s ease; }
   header nav .logo {
     max-width: 100px;
     width: 100%;

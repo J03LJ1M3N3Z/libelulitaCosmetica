@@ -9,29 +9,15 @@ header{
             justify-content: center;
             .nav-item{
                 margin: 0 1rem;
-                position: relative;
+                transition: all .3s ease;
 
-                &::before{
-                    position: absolute;
-                    content: "";
-                    bottom: 0;
-                    left: 0;
-                    width: 0;
-                    height: 8%;
-                    background-color: $pink;
-                    transition: all .3s ease;
+                &:hover{
+                    font-weight: bold;
                 }
 
                 .nav-link{
                     color: $black;
                     letter-spacing: .2rem;
-                }
-
-                &:hover{
-                    &::before{
-                        width: 100%;
-                        transition: all .3s ease;
-                    }
                 }
             }
         }
