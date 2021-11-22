@@ -9,17 +9,33 @@
         width: 100%;
         a{
             text-decoration: none;
-            font-family: 'Prata', serif;
+            font-family: $montserrat;
             color: $black;
-            text-align: center;
+            
         }
 
         h4{
-            font-family: 'Prata', serif; 
-            text-align: center;
+            font-family:$montserrat; 
+            font-size: 1.2em;
 
             &.line{
-                text-decoration: underline;
+                position: relative;
+                padding: .5rem;
+
+                &::after{
+                    content: " ";
+                    position: absolute;
+                    width: 90%;
+                    height: 5%;
+                    
+                    left: 50%;/*Controla eje horizontal*/
+                    bottom:0%;/*Controla eje vertical*/
+                    
+                    transform: translate(-50%,-50%);/*Resta el valor del eje*/
+
+                    background-color: $black;
+                    
+                }
                 
             }
 

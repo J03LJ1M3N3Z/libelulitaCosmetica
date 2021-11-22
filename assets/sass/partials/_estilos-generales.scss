@@ -25,6 +25,12 @@
     background: $pink; 
   }
 
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+  }
 
 a{
     transition: all .3s ease;
@@ -48,11 +54,34 @@ h3{
     font-size: 2.4rem;
 }
 
+h4{
+    font-size: 1.5rem;
+}
+
 .btnProducto{
     display: inline-block;
     text-decoration: none;
     background-color: $veige;
-    max-width: 180px;
+    max-width: 200px;
+    width: 100%;
+    font-family: $prata;
+    color: $black;
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 0 15px 0 0;
+    box-shadow: 0px 0px 5px $grey-light;
+
+    &:hover{
+        background-color: $grey;
+        color: $white;
+    }
+}
+
+.btnProductoPink{
+    display: inline-block;
+    text-decoration: none;
+    background-color: $pink;
+    max-width: 200px;
     width: 100%;
     font-family: $prata;
     color: $black;
@@ -91,97 +120,40 @@ h3{
 
 
 
+//Barra de promocion en el catalogo
+.compraAhora{
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    background-color: $pink;
+    h4{
+        font-family: $cormorant;
+        font-size: 2rem;
+        margin-top: 1rem;
 
-
-
-/*Seccion Nosotros*/
-.imagen__nosotros__superior{
-    margin-top: 2rem;
-}
-.header__nosotros{
-    font-size: 6rem;
-    margin:auto;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    color: $brown;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-}
-.nosotros__texto__superior{
-    width: 45%;
-    margin:auto;
-    text-align: justify;
-    margin-bottom: 2rem;
-}
-.seccion__caracteristicas__productos{
-    width:45%;
-    background-color: $veige;
-    margin:auto;
-}
-.header2__nosotros{
-    font-size: 5rem;
-    margin:auto;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    color: $brown;
-    margin-bottom: 2rem;
-}
-.nosotros__texto__inferior{
-    width: 45%;
-    margin: auto;
-}
-.header3__nosotros{
-    font-size: 4rem;
-    margin:auto;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    width: 80%;
-    color: $brown;
-    margin-bottom: 2rem;
-}
-
-/*Seccion Catálogo*/
-.header__catalogo{
-    font-size: 5rem;
-    font-family: 'EB Garamond', serif;
-    margin-left:35%;
-    color: $brown;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-    width:50%;
-    div{
-        margin-left: 40%;
-    }
-}
-.seccion__productos{
-    height:700px;
-}
-.texto__catalogo{
-    margin-left:50%;
-    width:100%;
-}
-.imagen-producto{
-    margin-bottom: 2rem;
-    img{
-        width:500px;
-    }
-}
-.boton-producto{
-    background-color: $veige;
-    font-family: 'EB Garamond', serif;
-    width:150px;
-    height:35px;
-    margin-left: 3rem;
-    border: none;
-    box-shadow: 5px 5px 9px #fae7d8;
         a{
-            color: black;
+            float: right;
             text-decoration: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: $green;
+            position: relative;
+            bottom: .5rem;
+            transition: all .3s ease;
+
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: $white;
+            }
+
+            &:hover{
+                background-color: $grey;
+            }
+
         }
-}
-.leyendas-productos{
-    line-height: 12px;
-}
-.producto{
-    margin-bottom: 4rem;
+    }
 }
