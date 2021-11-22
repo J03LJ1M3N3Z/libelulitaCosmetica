@@ -1,64 +1,64 @@
 ::selection {
     color: $white;
     background: $pink;
-  }
+}
 
-  /* width */
+/* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px$grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px$grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: $green; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $green;
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: $pink; 
-  }
+}
 
-  *{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $pink;
+}
 
-  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
-a{
+}
+
+a {
     transition: all .3s ease;
     display: inline-block;
 }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
 }
 
-h1{
+h1 {
     font-size: 4.8rem;
 }
 
-h2{
+h2 {
     font-size: 3.6rem;
 }
 
-h3{
+h3 {
     font-size: 2.4rem;
 }
 
-h4{
+h4 {
     font-size: 1.5rem;
 }
 
-.btnProducto{
+.btnProducto {
     display: inline-block;
     text-decoration: none;
     background-color: $veige;
@@ -71,13 +71,13 @@ h4{
     border-radius: 0 15px 0 0;
     box-shadow: 0px 0px 5px $grey-light;
 
-    &:hover{
+    &:hover {
         background-color: $grey;
         color: $white;
     }
 }
 
-.btnProductoPink{
+.btnProductoPink {
     display: inline-block;
     text-decoration: none;
     background-color: $pink;
@@ -90,13 +90,13 @@ h4{
     border-radius: 0 15px 0 0;
     box-shadow: 0px 0px 5px $grey-light;
 
-    &:hover{
+    &:hover {
         background-color: $grey;
         color: $white;
     }
 }
 
-.wApp{
+.wApp {
     text-decoration: none;
     width: 50px;
     height: 50px;
@@ -104,15 +104,15 @@ h4{
     color: $white;
     background-color: $green;
 
-    i{
+    i {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         font-size: 2rem;
     }
 
-    &:hover{
+    &:hover {
         background-color: $grey;
         color: $white;
     }
@@ -121,17 +121,18 @@ h4{
 
 
 //Barra de promocion en el catalogo
-.compraAhora{
+.compraAhora {
     display: flex;
     align-items: center;
     height: 18vh;
     background-color: $pink;
-    h4{
+
+    h4 {
         font-family: $cormorant;
         font-size: 2rem;
         margin-top: 1rem;
 
-        a{
+        a {
             float: right;
             text-decoration: none;
             width: 60px;
@@ -142,15 +143,15 @@ h4{
             bottom: .5rem;
             transition: all .3s ease;
 
-            i{
+            i {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
                 color: $white;
             }
 
-            &:hover{
+            &:hover {
                 background-color: $grey;
             }
 
