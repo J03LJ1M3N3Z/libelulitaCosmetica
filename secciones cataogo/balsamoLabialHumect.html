@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="Aquí podrás encontrar todos los detalles sobre el shampoo sólido para cabello graso">
+    <title>ibelulita Cosmética - Bálsamo labial humectante</title>
+    <meta name="description" content="Aquí podrás encontrar todos los detalles sobre nuestro bálsamo labial humectante">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Fontawesome CSS-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Slider OwlCarrousel -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/plugins/owl-carousel/owl.theme.default.min.css">
     <!--Nuestro CSS-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -52,27 +55,26 @@
         </nav>
     </header>
     
-    <!-- CARROUSEL -->
-    <section class="carrousel">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../assets/img/humectante-labial.png" class="d-block w-100" alt="envase con un bálsamo labial humectante">
-                </div>
-                <div class="carousel-item">
-                    <img src="../assets/img/humectante-labial2.png" class="d-block w-100" alt="envase de bálsamo labial humectante junto con almendras">
+    <!-- CAROUSEL -->
+    <section class="catalogoInd">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="catalogoInd__slider">
+                        <div class="owl-carousel owl-theme" id="catalogoInd">
+                            <div class="item">
+                                <img src="../assets/img/humectante-labial.png" alt="Envase con un bálsamo labial humectante" class="img-fluid"> 
+                            </div>
+                            <div class="item">
+                                <img src="../assets/img/humectante-labial2.png" alt="Envase de bálsamo labial humectante junto con almendras" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </section>
+    <!--FIN CAROUSEL-->
     <section class="texto__producto__individual">
         <div>
             <p><b>BÁLSAMO LABIAL HUMECTANTE</b></p>
@@ -127,5 +129,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <!-- Script Owl Carrousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Script Main -->
+    <script src="../assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>

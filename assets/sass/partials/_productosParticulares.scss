@@ -1,15 +1,55 @@
 /*secciones particulares de cada producto*/
-.carrousel{
-    width:50%;
-    margin:auto;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-}
-.carousel-control-prev-icon{
-    background-color: gray;
-}
-.carousel-control-next-icon{
-    background-color: gray;
+.catalogoInd{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    &__slider{
+       #catalogoInd{
+        position: relative;
+        .owl-nav{
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+            .owl-next,.owl-prev{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                background-color: $white;
+                box-shadow: 0 0 10px $grey-light;
+                transition: all .3s ease;
+
+                &:hover{
+                    background-color: $grey-light;
+                    transition: all .3s ease;
+                }
+
+                span{
+                    font-size: 20px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    color: $black;
+                    height: 10px;
+                    transition: all .3s ease;
+
+                    &:hover{
+                        color: $pink;
+                    }
+                }
+            }
+
+            .owl-next{
+                right: -5rem;
+            }
+
+            .owl-prev{
+                left: -5rem;
+            }
+        }  
+       }
+    }
 }
 .texto__producto__individual{
     width:50%;
