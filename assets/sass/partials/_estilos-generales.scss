@@ -1,257 +1,158 @@
+::selection {
+    color: $white;
+    background: $pink;
+}
 
-a{
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px$grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $pink;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $pink;
+}
+
+
+
+a {
     transition: all .3s ease;
     display: inline-block;
 }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
 }
 
-h1{
+h1 {
     font-size: 4.8rem;
 }
 
-h2{
+h2 {
     font-size: 3.6rem;
 }
 
-h3{
+h3 {
     font-size: 2.4rem;
 }
-h4{
+
+h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
 }
 
-/*Seccion Nosotros*/
-.imagen__nosotros__superior{
-    margin-top: 2rem;
-}
-.header__nosotros{
-    font-size: 6rem;
-    margin:auto;
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    color: $brown;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-}
-.nosotros__texto__superior{
-    width: 45%;
-    margin:auto;
-    text-align: justify;
-    margin-bottom: 2rem;
-}
-.seccion__caracteristicas__productos{
-    width:45%;
+.btnProducto {
+    display: inline-block;
+    text-decoration: none;
     background-color: $veige;
-    margin:auto;
-}
-.header2__nosotros{
-    font-size: 5rem;
-    margin:auto;
-    font-family: 'Cormorant Garamond', serif;
+    max-width: 180px;
+    width: 100%;
+    font-family: $prata;
+    font-size: 1rem;
+    color: $black;
     text-align: center;
-    color: $brown;
-    margin-bottom: 2rem;
-}
-.nosotros__texto__inferior{
-    width: 45%;
-    margin: auto;
-}
-.header3__nosotros{
-    font-size: 4rem;
-    margin:auto;
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    width: 80%;
-    color: $brown;
-    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+    border-radius: 0 15px 0 0;
+    box-shadow:2px 2px 3px #fae7d8;
+
+    &:hover {
+        background-color: $grey;
+        color: $white;
+    }
 }
 
-/*Seccion Catálogo*/
-.header__catalogo{
-    font-size: 5rem;
-    font-family: 'Cormorant Garamond', serif;
-    margin-left:35%;
-    color: $brown;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-    width:50%;
-    div{
-        margin-left: 75%;
-    }
-}
-.seccion__productos{
-    height:700px;
-}
-.texto__catalogo{
-    margin-left:65%;
-    width:100%;
-}
-.imagen-producto{
-    margin-bottom: 2rem;
-    img{
-        width:500px;
-    }
-}
-.boton-producto{
-    background-color: $veige;
-    font-family: 'EB Garamond', serif;
-    width:150px;
-    height:35px;
-    margin-left: 3rem;
-    border: none;
-    box-shadow: 2px 2px 3px #fae7d8;
-    border-radius: 0 15px 0 0;
-        a{
-            color: black;
-            text-decoration: none;
-        }
-}
-.leyendas-productos{
-    line-height: 12px;
-}
-.producto{
-    margin-bottom: 4rem;
-}
-/*secciones particulares de cada producto*/
-.carrousel{
-    width:50%;
-    margin:auto;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-}
-.carousel-control-prev-icon{
-    background-color: gray;
-}
-.carousel-control-next-icon{
-    background-color: gray;
-}
-.texto__producto__individual{
-    width:50%;
-    margin:auto;
-    margin-bottom: 4rem;
-}
-.boton-comprar{
-    width: 16rem;
-    height:3.5rem;
-    margin-left: 25%;
-    background-color: #fff2f2;
-    border: none;
-    box-shadow: -2px -2px 3px #F9D6D6;
-    border-radius: 0 15px 0 0;
-    a{
-        text-decoration: none;
-        color: black;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.4rem;
-    }
-}
-.banner-comprar{
-    background-color: #fff2f2;
+.btnProductoPink {
+    display: inline-block;
+    text-decoration: none;
+    background-color: $pink;
+    max-width: 200px;
+    width: 100%;
+    font-family: $prata;
+    font-size: 1rem;
+    color: $black;
     text-align: center;
-    margin-top: 4rem;
-    height:7rem;
-    a{
-        text-decoration: none;
-        color: black;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8rem;
+    padding: .5rem 1rem;
+    border-radius: 0 15px 0 0;
+    box-shadow:2px 2px 3px #fae7d8;
+
+    &:hover {
+        background-color: $grey;
+        color: $white;
     }
-}
-.imagen__producto__individual{
-    margin:auto;
-    width:50%;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
 }
 
-/*Seccion contacto*/
-.contacto-titulo{
-    font-size: 5rem;
-    font-family: 'Cormorant Garamond', serif;
-    margin-left:10%;
-    color: $brown;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-}
-.contacto-datos{
-    margin-left: 15%;
-}
-.direccion-retiro{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8rem;
-}
-.correo-electronico{
-    margin-top: 6rem;
-    font-size: 1.8rem;
-    font-family: 'Cormorant Garamond', serif;
-}
-.whatsapp{
-    font-size: 1.8rem;
-    font-family: 'Cormorant Garamond', serif;
-    position: relative;
-    margin-top: 3rem;
-    padding-top: 3rem;
-    &::after{
+.wApp {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: $white;
+    background-color: $green;
+
+    i {
         position: absolute;
-        top:0px;
-        left:0px;
-        content: " ";
-        width: 55%;
-        height: 2%;
-        background-color: $black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+    }
+
+    &:hover {
+        background-color: $grey;
+        color: $white;
     }
 }
-.mensaje-final-contacto{
-    font-size: 1.8rem;
-    font-family: 'Cormorant Garamond', serif;
-    margin-top: 6rem;
-    width:40%;
-    margin-bottom: 6rem;
-}
-/*Preguntas Frecuentes*/
-.header__preguntas{
-    font-size: 5rem;
-        font-family: 'Cormorant Garamond', serif;
-        margin-left:12%;
-        color: $brown;
-        margin-bottom: 2rem;
-        margin-top: 4rem;
-        width:50%;
-        div{
-            margin-left: 20%;
+
+
+
+//Barra de promocion en el catalogo
+.compraAhora {
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    background-color: $pink;
+
+    h4 {
+        font-family: $cormorant;
+        font-size: 2rem;
+        margin-top: 1rem;
+
+        a {
+            float: right;
+            text-decoration: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: $green;
+            position: relative;
+            bottom: .5rem;
+            transition: all .3s ease;
+
+            i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white;
+            }
+
+            &:hover {
+                background-color: $grey;
+            }
+
         }
-}
-.seccion__titulo__preguntas{
-    height:650px;
-}
-.texto__preguntas{
-    margin-left: 21%;
-    width: 30%;
-}
-.te-contamos{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.5rem;
-}
-.seccion__preguntas{
-    width:50%;
-    margin:auto;
-    text-align: justify;
-}
-.titulos-preguntas{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.5rem;
-    text-align: left;
-}
-.iamgen2-preguntas{
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-.ultima-pregunta{
-    margin-top: 3rem;
-    margin-bottom: 8rem;
+    }
 }

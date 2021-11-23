@@ -1,0 +1,51 @@
+/*secciones particulares de cada producto*/
+.carrousel{
+    width:50%;
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+.carousel-control-prev-icon{
+    background-color: gray;
+}
+.carousel-control-next-icon{
+    background-color: gray;
+}
+.texto__producto__individual{
+    width:50%;
+    margin:auto;
+    margin-bottom: 4rem;
+}
+.boton-comprar{
+    width: 16rem;
+    height:3.5rem;
+    margin-left: 25%;
+    background-color: #fff2f2;
+    border: none;
+    box-shadow: -2px -2px 3px #F9D6D6;
+    border-radius: 0 15px 0 0;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.4rem;
+    }
+}
+.banner-comprar{
+    background-color: #fff2f2;
+    text-align: center;
+    margin-top: 4rem;
+    height:7rem;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8rem;
+    }
+}
+.imagen__producto__individual{
+    margin:auto;
+    width:50%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}

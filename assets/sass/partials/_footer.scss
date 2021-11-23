@@ -4,23 +4,39 @@
     align-items: center;
     background-color: $veige;
     border-bottom: 30px solid $pink;
-    margin-top: 2rem;
 
     footer{
         width: 100%;
         a{
             text-decoration: none;
-            font-family: 'Prata', serif;
+            font-family: $montserrat;
             color: $black;
-            text-align: center;
+            
         }
 
         h4{
-            font-family: 'Prata', serif; 
+            font-family:$montserrat; 
+            font-size: 1.2em;
             text-align: center;
 
             &.line{
-                text-decoration: underline;
+                position: relative;
+                padding: .5rem;
+
+                &::after{
+                    content: " ";
+                    position: absolute;
+                    width: 90%;
+                    height: 5%;
+                    transform: translate(-50%,-50%);
+                    left: 50%;/*Controla eje horizontal*/
+                    bottom:0%;/*Controla eje vertical*/
+                    
+                    transform: translate(-50%,-50%);/*Resta el valor del eje*/
+
+                    background-color: $black;
+                    
+                }
                 
             }
 
