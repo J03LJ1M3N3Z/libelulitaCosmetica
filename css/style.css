@@ -709,8 +709,7 @@ h4 {
 .preguntas {
   margin-top: 3rem;
   position: relative;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem; }
+  margin-bottom: 3rem; }
   .preguntas::before {
     position: absolute;
     content: "";

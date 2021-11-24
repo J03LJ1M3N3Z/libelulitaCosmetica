@@ -3,7 +3,6 @@
     margin-top: 3rem;
     position: relative;
     margin-bottom: 3rem;
-    padding-bottom: 2rem;
 
     &::before{
         position: absolute;
@@ -13,7 +12,7 @@
         width: 55%;
         height: 100%;
         background-image: url("../assets/img/preguntas-frecuentes-portada.png");
-        background-size: cover;
+        background-size:cover;
         background-position: center center;
         z-index: -1;
     }
