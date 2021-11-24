@@ -504,12 +504,12 @@ h4 {
 .texto__producto__individual {
   width: 50%;
   margin: auto;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  text-align: justify; }
 
 .boton-comprar {
   width: 16rem;
   height: 3.5rem;
-  margin-left: 25%;
   background-color: #fff2f2;
   border: none;
   box-shadow: -2px -2px 3px #F9D6D6;
@@ -801,7 +801,12 @@ h4 {
   .mensaje-final-contacto {
     font-size: 1.3rem;
     font-weight: bold;
-    text-align: left; } }
+    text-align: left;
+    margin-bottom: 2rem; }
+  .texto__producto__individual {
+    width: 85%; }
+  .banner-comprar a {
+    font-size: 1.4rem; } }
 
 /*Medium devices*/
 @media only screen and (min-width: 768px) {
@@ -846,7 +851,12 @@ h4 {
   .mensaje-final-contacto {
     font-size: 1.8rem;
     font-weight: normal;
-    text-align: left; } }
+    text-align: left;
+    margin-bottom: 6rem; }
+  .texto__producto__individual {
+    width: 50%; }
+  .banner-comprar a {
+    font-size: 1.5rem; } }
 
 /*Large Devices*/
 @media only screen and (min-width: 950px) {
@@ -872,4 +882,6 @@ h4 {
   .contacto-titulo {
     margin-left: 10%; }
   .mensaje-final-contacto {
-    width: 40%; } }
+    width: 40%; }
+  .banner-comprar a {
+    font-size: 1.8rem; } }

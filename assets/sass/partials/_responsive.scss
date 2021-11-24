@@ -65,8 +65,20 @@
             font-size: 1.3rem;
             font-weight: bold;
             text-align:left;
+            margin-bottom: 2rem;
         }
         //FIN SECCION CONTACTO
+
+        //SECCION PRODUCTOS PARTICULARES
+        .texto__producto__individual{
+            width:85%;
+        }
+        .banner-comprar{
+            a{
+                font-size: 1.4rem;
+            }
+        }
+        //FIN PRODUCTOS PARTICULARES
     }
 
 /*Medium devices*/
@@ -134,8 +146,20 @@
             font-size: 1.8rem;
             font-weight: normal;
             text-align:left;
+            margin-bottom: 6rem;
         }
         //FIN SECCION CONTACTO
+
+        //SECCION PRODUCTOS PARTICULARES
+        .texto__producto__individual{
+            width:50%;
+        }
+        .banner-comprar{
+            a{
+                font-size: 1.5rem;
+            }
+        }
+        //FIN PRODUCTOS PARTICULARES
     }
 
 /*Large Devices*/
@@ -179,4 +203,12 @@
             width: 40%;
         }
         //FIN SECCION CONTACTO
+
+        //SECCION PRODUCTOS PARTICULARES
+        .banner-comprar{
+            a{
+                font-size: 1.8rem;
+            }
+        }
+        //FIN PRODUCTOS PARTICULARES
     } 
