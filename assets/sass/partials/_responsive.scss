@@ -2,46 +2,88 @@
 
 /* extra Small Devices*/
 
-    @mixin movil0{
-        @media only screen and (min-width: 0px){
-            @content;
+    @media only screen and (min-width: 0px){
+        p{
+            font-size: 1rem;
         }
         
-    }
-
-/*Small Devices*/
-
-    @mixin movil575{
-        @media only screen and (min-width: 575px){
-            @content;
+        //SECCION NOSOTROS
+        .imagen__nosotros__superior img{
+            width: 85%;
         }
-    }
-
-    @mixin movil600{ /*  Responsive para secciion de Sesiones*/
-        @media (min-width: 600px){
-            @content;
+        .header__nosotros{
+            font-size: 2.5rem;
         }
+        .nosotros__texto__superior{
+            width: 75%;
+        }
+        .seccion__caracteristicas__productos{
+            width:75%;;
+        }
+        .logo-libelulita img{
+            width:85%;
+        }
+        .header2__nosotros{
+            font-size: 2rem;
+            margin: auto;
+        }
+        .nosotros__texto__inferior{
+            width: 75%;
+        }
+        .header3__nosotros{
+            font-size: 1.7rem;
+            width: 85%;
+        }
+        //FIN SECCION NOSOTROS
     }
 
 /*Medium devices*/
 
-    @mixin movil768{
-        @media only screen and (min-width: 768px){
-            @content;
+    @media only screen and (min-width: 768px){
+        //SECCION NOSOTROS
+        .imagen__nosotros__superior img{
+            width: 90%;
         }
+        .header__nosotros{
+            font-size: 4rem;
+        }
+        .nosotros__texto__superior{
+            width: 45%;
+        }
+        .seccion__caracteristicas__productos{
+            width:45%;
+        }
+        .logo-libelulita img{
+            width:40%;
+        }
+        .header2__nosotros{
+            font-size: 3rem;
+        }
+        .nosotros__texto__inferior{
+            width: 45%;
+        }
+        .header3__nosotros{
+            font-size: 2rem;
+            width: 80%;
+        }
+        //FIN SECCION NOSOTROS
     }
+
 
 /*Large Devices*/
-    @mixin movil950 {
-        @media only screen and (min-width: 950px){  /*Responsive  para seccion Blog*/
-            @content;
+    @media only screen and (min-width: 950px){ 
+        p{
+            font-size: 1.2rem;
         }
-    
-    }
-
-    @mixin movil991{
-        @media only screen and (min-width:991px){
-            @content;
-        }       
-    }
-    
+        //SECCION NOSOTROS
+        .header__nosotros{
+            font-size: 6rem;
+        }
+        .header2__nosotros{
+            font-size: 5rem;
+        }
+        .header3__nosotros{
+            font-size: 4rem;
+        }
+        //FIN SECCION NOSOTROS
+    } 

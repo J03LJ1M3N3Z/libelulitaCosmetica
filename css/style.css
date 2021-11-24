@@ -390,7 +390,7 @@ h4 {
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
   color: #745739;
-  margin-bottom: 2rem; }
+  padding-bottom: 2rem; }
 
 .nosotros__texto__inferior {
   width: 45%;
@@ -758,6 +758,55 @@ h4 {
 
 /*--------------RESPONSIVE----------*/
 /* extra Small Devices*/
-/*Small Devices*/
+@media only screen and (min-width: 0px) {
+  p {
+    font-size: 1rem; }
+  .imagen__nosotros__superior img {
+    width: 85%; }
+  .header__nosotros {
+    font-size: 2.5rem; }
+  .nosotros__texto__superior {
+    width: 75%; }
+  .seccion__caracteristicas__productos {
+    width: 75%; }
+  .logo-libelulita img {
+    width: 85%; }
+  .header2__nosotros {
+    font-size: 2rem;
+    margin: auto; }
+  .nosotros__texto__inferior {
+    width: 75%; }
+  .header3__nosotros {
+    font-size: 1.7rem;
+    width: 85%; } }
+
 /*Medium devices*/
+@media only screen and (min-width: 768px) {
+  .imagen__nosotros__superior img {
+    width: 90%; }
+  .header__nosotros {
+    font-size: 4rem; }
+  .nosotros__texto__superior {
+    width: 45%; }
+  .seccion__caracteristicas__productos {
+    width: 45%; }
+  .logo-libelulita img {
+    width: 40%; }
+  .header2__nosotros {
+    font-size: 3rem; }
+  .nosotros__texto__inferior {
+    width: 45%; }
+  .header3__nosotros {
+    font-size: 2rem;
+    width: 80%; } }
+
 /*Large Devices*/
+@media only screen and (min-width: 950px) {
+  p {
+    font-size: 1.2rem; }
+  .header__nosotros {
+    font-size: 6rem; }
+  .header2__nosotros {
+    font-size: 5rem; }
+  .header3__nosotros {
+    font-size: 4rem; } }
