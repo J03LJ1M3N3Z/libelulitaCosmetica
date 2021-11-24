@@ -706,27 +706,38 @@ h4 {
     text-transform: uppercase; }
 
 /*Preguntas Frecuentes*/
-.header__preguntas {
-  font-size: 5rem;
-  font-family: 'Cormorant Garamond', serif;
-  margin-left: 12%;
-  color: #745739;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
-  width: 50%; }
-  .header__preguntas div {
-    margin-left: 20%; }
-
-.seccion__titulo__preguntas {
-  height: 650px; }
-
-.texto__preguntas {
-  margin-left: 21%;
-  width: 30%; }
+.preguntas {
+  margin-top: 3rem;
+  position: relative;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem; }
+  .preguntas::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100%;
+    background-image: url("../assets/img/preguntas-frecuentes-portada.png");
+    background-size: cover;
+    background-position: center center;
+    z-index: -1; }
+  .preguntas__header {
+    font-size: 5rem;
+    font-family: "Cormorant Garamond", serif;
+    line-height: 4.5rem;
+    color: #745739; }
+    .preguntas__header i {
+      float: right; }
+  .preguntas__texto {
+    margin-left: 6.5rem;
+    width: 60%;
+    margin-top: 1.7rem; }
 
 .te-contamos {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  margin-top: 2rem; }
 
 .seccion__preguntas {
   width: 50%;
