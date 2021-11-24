@@ -24,7 +24,7 @@
             width:85%;
         }
         .header2__nosotros{
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin: auto;
         }
         .nosotros__texto__inferior{
@@ -35,6 +35,35 @@
             width: 85%;
         }
         //FIN SECCION NOSOTROS
+        
+        //SECCION CONTACTO
+        .contacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align:justify;
+        }
+        .mensaje-final-contacto{
+            width: 100%;
+        }
+        .direccion-retiro{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .correo-electronico{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .whatsapp{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .mensaje-final-contacto{
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align:left;
+        }
+        //FIN SECCION CONTACTO
     }
 
 /*Medium devices*/
@@ -67,8 +96,43 @@
             width: 80%;
         }
         //FIN SECCION NOSOTROS
-    }
 
+        //SECCION CONTACTO
+        .contacto-titulo{
+            margin-left:8%;
+        }
+        .contacto{
+            display:unset;
+            text-align:left;
+        }
+        .contacto-datos{
+            margin-left: 15%;
+        }
+        .direccion-retiro{
+            font-size: 1.8rem;
+            font-weight:normal;
+            span{
+                font-style: italic;
+            }
+        }
+        .correo-electronico{
+            font-size: 1.8rem;
+            font-weight: normal;
+            span{
+                font-style: italic;
+            }
+        }
+        .whatsapp{
+            font-size: 1.8rem;
+            font-weight: normal;
+        }
+        .mensaje-final-contacto{
+            font-size: 1.8rem;
+            font-weight: normal;
+            text-align:left;
+        }
+        //FIN SECCION CONTACTO
+    }
 
 /*Large Devices*/
     @media only screen and (min-width: 950px){ 
@@ -102,4 +166,13 @@
             width: 80%;
         }
         //FIN SECCION NOSOTROS
+
+        //SECCION CONTACTO
+        .contacto-titulo{
+            margin-left:10%;
+        }
+        .mensaje-final-contacto{
+            width: 40%;
+        }
+        //FIN SECCION CONTACTO
     } 

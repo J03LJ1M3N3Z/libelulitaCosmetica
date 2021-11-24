@@ -774,13 +774,33 @@ h4 {
   .logo-libelulita img {
     width: 85%; }
   .header2__nosotros {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: auto; }
   .nosotros__texto__inferior {
     width: 75%; }
   .header3__nosotros {
     font-size: 1.7rem;
-    width: 85%; } }
+    width: 85%; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify; }
+  .mensaje-final-contacto {
+    width: 100%; }
+  .direccion-retiro {
+    font-size: 1.3rem;
+    font-weight: bold; }
+  .correo-electronico {
+    font-size: 1.3rem;
+    font-weight: bold; }
+  .whatsapp {
+    font-size: 1.3rem;
+    font-weight: bold; }
+  .mensaje-final-contacto {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left; } }
 
 /*Medium devices*/
 @media only screen and (min-width: 768px) {
@@ -800,7 +820,31 @@ h4 {
     width: 65%; }
   .header3__nosotros {
     font-size: 2rem;
-    width: 80%; } }
+    width: 80%; }
+  .contacto-titulo {
+    margin-left: 8%; }
+  .contacto {
+    display: unset;
+    text-align: left; }
+  .contacto-datos {
+    margin-left: 15%; }
+  .direccion-retiro {
+    font-size: 1.8rem;
+    font-weight: normal; }
+    .direccion-retiro span {
+      font-style: italic; }
+  .correo-electronico {
+    font-size: 1.8rem;
+    font-weight: normal; }
+    .correo-electronico span {
+      font-style: italic; }
+  .whatsapp {
+    font-size: 1.8rem;
+    font-weight: normal; }
+  .mensaje-final-contacto {
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: left; } }
 
 /*Large Devices*/
 @media only screen and (min-width: 950px) {
@@ -822,4 +866,8 @@ h4 {
     width: 45%; }
   .header3__nosotros {
     font-size: 4rem;
-    width: 80%; } }
+    width: 80%; }
+  .contacto-titulo {
+    margin-left: 10%; }
+  .mensaje-final-contacto {
+    width: 40%; } }
