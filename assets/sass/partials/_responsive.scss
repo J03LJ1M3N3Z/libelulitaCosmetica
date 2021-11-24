@@ -43,6 +43,9 @@
             align-items: center;
             text-align:justify;
         }
+        .contacto-datos{
+            width:80%;
+        }
         .mensaje-final-contacto{
             width: 100%;
         }
@@ -100,6 +103,7 @@
         //SECCION CONTACTO
         .contacto-titulo{
             margin-left:8%;
+            margin-top: 4rem;
         }
         .contacto{
             display:unset;
