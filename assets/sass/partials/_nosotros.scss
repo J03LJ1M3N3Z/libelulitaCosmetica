@@ -21,6 +21,7 @@
     width:45%;
     background-color: $veige;
     margin:auto;
+    padding:3rem;
 }
 .header2__nosotros{
     font-size: 5rem;
@@ -33,12 +34,13 @@
 .nosotros__texto__inferior{
     width: 45%;
     margin: auto;
+    text-align: justify;
 }
 .header3__nosotros{
     font-size: 4rem;
     margin:auto;
     font-family: 'Cormorant Garamond', serif;
-    text-align: center;
+    text-align:left;
     width: 80%;
     color: $brown;
     margin-bottom: 2rem;
