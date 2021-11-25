@@ -501,7 +501,7 @@ h4 {
       .catalogoInd__slider #catalogoInd .owl-nav .owl-prev {
         left: -5rem; }
 
-.texto__producto__individual {
+.producto__individual {
   width: 50%;
   margin: auto;
   margin-bottom: 4rem;
@@ -769,7 +769,8 @@ h4 {
   .nosotros__texto__superior {
     width: 75%; }
   .seccion__caracteristicas__productos {
-    width: 75%; }
+    width: 75%;
+    padding: 1rem; }
   .logo-libelulita img {
     width: 85%; }
   .header2__nosotros {
@@ -803,10 +804,18 @@ h4 {
     font-weight: bold;
     text-align: left;
     margin-bottom: 2rem; }
-  .texto__producto__individual {
+  .producto__individual {
     width: 85%; }
   .banner-comprar a {
-    font-size: 1.4rem; } }
+    font-size: 1.4rem; }
+  .producto__individual__texto b {
+    text-transform: lowercase;
+    font-weight: normal; }
+  .imagen__producto__individual {
+    display: flex;
+    justify-content: center; }
+    .imagen__producto__individual img {
+      width: 190%; } }
 
 /*Medium devices*/
 @media only screen and (min-width: 768px) {
@@ -817,7 +826,8 @@ h4 {
   .nosotros__texto__superior {
     width: 65%; }
   .seccion__caracteristicas__productos {
-    width: 65%; }
+    width: 65%;
+    padding: 3rem; }
   .logo-libelulita img {
     width: 40%; }
   .header2__nosotros {
@@ -853,10 +863,15 @@ h4 {
     font-weight: normal;
     text-align: left;
     margin-bottom: 6rem; }
-  .texto__producto__individual {
+  .producto__individual {
     width: 50%; }
   .banner-comprar a {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .producto__individual__texto b {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .imagen__producto__individual img {
+    width: 100%; } }
 
 /*Large Devices*/
 @media only screen and (min-width: 950px) {

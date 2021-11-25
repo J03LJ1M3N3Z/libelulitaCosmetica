@@ -18,7 +18,8 @@
             width: 75%;
         }
         .seccion__caracteristicas__productos{
-            width:75%;;
+            width:75%;
+            padding:1rem;
         }
         .logo-libelulita img{
             width:85%;
@@ -70,12 +71,23 @@
         //FIN SECCION CONTACTO
 
         //SECCION PRODUCTOS PARTICULARES
-        .texto__producto__individual{
+        .producto__individual{
             width:85%;
         }
         .banner-comprar{
             a{
                 font-size: 1.4rem;
+            }
+        }
+        .producto__individual__texto b{
+            text-transform: lowercase;
+            font-weight: normal;
+        }
+        .imagen__producto__individual{
+            display: flex;
+            justify-content: center;
+            img{
+                width:190%;
             }
         }
         //FIN PRODUCTOS PARTICULARES
@@ -96,6 +108,7 @@
         }
         .seccion__caracteristicas__productos{
             width:65%;
+            padding:3rem;
         }
         .logo-libelulita img{
             width:40%;
@@ -151,13 +164,20 @@
         //FIN SECCION CONTACTO
 
         //SECCION PRODUCTOS PARTICULARES
-        .texto__producto__individual{
+        .producto__individual{
             width:50%;
         }
         .banner-comprar{
             a{
                 font-size: 1.5rem;
             }
+        }
+        .producto__individual__texto b{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .imagen__producto__individual img{
+            width:100%;
         }
         //FIN PRODUCTOS PARTICULARES
     }
