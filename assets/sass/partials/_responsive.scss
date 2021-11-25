@@ -90,6 +90,9 @@
                 width:190%;
             }
         }
+        .owl-nav{
+            display: none;
+        }
         //FIN PRODUCTOS PARTICULARES
     }
 
@@ -178,6 +181,9 @@
         }
         .imagen__producto__individual img{
             width:100%;
+        }
+        .owl-nav{
+            display: block;
         }
         //FIN PRODUCTOS PARTICULARES
     }
