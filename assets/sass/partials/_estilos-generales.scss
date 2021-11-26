@@ -16,13 +16,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $pink;
+    background: $grey-light;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: $pink;
+    background: $grey;
 }
 
 
@@ -54,6 +54,14 @@ h4 {
     font-size: 1.2rem;
 }
 
+.navbar-toggler{
+    box-shadow: 0px 0px 6px 0rem; 
+}
+
+.navbar-toggler:focus{
+   box-shadow: 0px 0px 6px 0rem; 
+}
+
 .sinpadding{
     padding: 0;
 }
@@ -65,7 +73,7 @@ h4 {
     max-width: 180px;
     width: 100%;
     font-family: $prata;
-    font-size: 1rem;
+    font-size: 16px;
     color: $black;
     text-align: center;
     padding: .5rem 1rem;
@@ -85,7 +93,7 @@ h4 {
     max-width: 200px;
     width: 100%;
     font-family: $prata;
-    font-size: 1rem;
+    font-size: 16px;
     color: $black;
     text-align: center;
     padding: .5rem 1rem;
