@@ -121,13 +121,15 @@
     //FIN SECCION NOSOTROS
 
     //SECCION CONTACTO
-    .contacto {
+    .contacto2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: justify;
     }
-
+    .contacto-titulo{
+        font-size: 4rem;
+    }
     .contacto-datos {
         width: 80%;
     }
@@ -450,9 +452,10 @@
     .contacto-titulo {
         margin-left: 8%;
         margin-top: 4rem;
+        font-size: 5rem;
     }
 
-    .contacto {
+    .contacto2 {
         display: unset;
         text-align: left;
     }
@@ -462,8 +465,8 @@
     }
 
     .direccion-retiro {
-        font-size: 1.8rem;
-        font-weight: normal;
+        font-size: 2.2rem;
+        font-weight: unset;
         font-family: 'Cormorant Garamond', serif;
         span {
             font-style: italic;
@@ -471,8 +474,8 @@
     }
 
     .correo-electronico {
-        font-size: 1.8rem;
-        font-weight: normal;
+        font-size: 2.2rem;
+        font-weight: unset;
         font-family: 'Cormorant Garamond', serif;
 
         span{
@@ -481,16 +484,17 @@
     }
 
     .whatsapp {
-        font-size: 1.8rem;
-        font-weight: normal;
+        font-size: 2.2rem;
+        font-weight: unset;
         font-family: 'Cormorant Garamond', serif;
     }
 
     .mensaje-final-contacto {
-        font-size: 1.8rem;
-        font-weight: normal;
+        font-size: 2.2rem;
+        font-weight: unset;
         text-align: left;
         margin-bottom: 6rem;
+        width:80%;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -718,7 +722,7 @@
     }
 
     .mensaje-final-contacto {
-        width: 40%;
+        width: 50%;
     }
 
     //FIN SECCION CONTACTO
