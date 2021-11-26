@@ -195,6 +195,7 @@
     .producto {
         .productoTexto {
             justify-content: center;
+            flex-wrap: wrap;
 
             .leyendas-productos {
                 width: 100%;
@@ -276,7 +277,33 @@
 
     //FIN MAYORISTAS
 
-
+    //SECCION AYUDA
+    .ayuda{
+        text-align: center;
+    }
+    .contacto__email{
+        h3{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+    .contacto__whatsApp{
+        h3{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+    .contacto h5{
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: left;
+    }
+    .contacto__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    //FIN SECCION AYUDA
 
     //FOOTER
     .footer {
@@ -436,7 +463,7 @@
     .direccion-retiro {
         font-size: 1.8rem;
         font-weight: normal;
-
+        font-family: 'Cormorant Garamond', serif;
         span {
             font-style: italic;
         }
@@ -445,8 +472,9 @@
     .correo-electronico {
         font-size: 1.8rem;
         font-weight: normal;
+        font-family: 'Cormorant Garamond', serif;
 
-        span {
+        span{
             font-style: italic;
         }
     }
@@ -454,6 +482,7 @@
     .whatsapp {
         font-size: 1.8rem;
         font-weight: normal;
+        font-family: 'Cormorant Garamond', serif;
     }
 
     .mensaje-final-contacto {
@@ -461,6 +490,7 @@
         font-weight: normal;
         text-align: left;
         margin-bottom: 6rem;
+        font-family: 'Cormorant Garamond', serif;
     }
 
     //FIN SECCION CONTACTO
@@ -511,6 +541,39 @@
 
     //FIN MAYORISTAS
 
+    //SECCION AYUDA
+    .ayuda{
+        text-align: unset;
+    }
+    .contacto__email{
+        h3{
+            font-size:2.2rem;
+            font-weight:unset;
+            font-family: $cormorant;
+        }
+        span{
+            font-style: italic;
+        }
+    }
+    .contacto__whatsApp{
+        h3{
+            font-size: 2.2rem;
+            font-weight: unset;
+            font-family: $cormorant;
+        }
+    }
+    .contacto h5{
+        font-size: 2rem;
+        font-weight: unset;
+        font-family: $cormorant;
+        span{
+            font-style: italic;
+        }
+    }
+    .contacto__info{
+        align-items:unset;
+    }
+    //FIN SECCION AYUDA
 
     //FOOTER
     .footer {
@@ -670,6 +733,7 @@
     }
 
     //FIN PRODUCTOS PARTICULARES   
+
 }
 
 @media only screen and (min-width: 992px) {
