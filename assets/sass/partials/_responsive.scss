@@ -294,7 +294,7 @@
         }
     }
     .contacto h5{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: bold;
         text-align: left;
     }
@@ -302,6 +302,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width:80%;
     }
     //FIN SECCION AYUDA
 
@@ -566,9 +567,6 @@
         font-size: 2rem;
         font-weight: unset;
         font-family: $cormorant;
-        span{
-            font-style: italic;
-        }
     }
     .contacto__info{
         align-items:unset;
@@ -733,6 +731,12 @@
     }
 
     //FIN PRODUCTOS PARTICULARES   
+
+    //SECCION AYUDA
+    .contacto h5{
+        width:80%
+    }
+    //FIN SECCION AYUDA
 
 }
 
