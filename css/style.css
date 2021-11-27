@@ -374,7 +374,7 @@ h4 {
   margin-top: 2rem; }
 
 .header__nosotros {
-  font-size: 6rem;
+  font-size: 4.8rem;
   margin: auto;
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
@@ -383,19 +383,19 @@ h4 {
   margin-top: 4rem; }
 
 .nosotros__texto__superior {
-  width: 45%;
+  width: 55%;
   margin: auto;
   text-align: justify;
   margin-bottom: 2rem; }
 
 .seccion__caracteristicas__productos {
-  width: 45%;
+  width: 55%;
   background-color: #FFF9F4;
   margin: auto;
   padding: 3rem; }
 
 .header2__nosotros {
-  font-size: 5rem;
+  font-size: 3.4rem;
   margin: auto;
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
@@ -403,12 +403,12 @@ h4 {
   padding-bottom: 2rem; }
 
 .nosotros__texto__inferior {
-  width: 45%;
+  width: 55%;
   margin: auto;
   text-align: justify; }
 
 .header3__nosotros {
-  font-size: 4rem;
+  font-size: 2.8rem;
   margin: auto;
   font-family: 'Cormorant Garamond', serif;
   text-align: left;
@@ -815,7 +815,7 @@ h4 {
   .imagen__nosotros__superior img {
     width: 85%; }
   .header__nosotros {
-    font-size: 2.5rem; }
+    font-size: 2.3rem; }
   .nosotros__texto__superior {
     width: 75%; }
   .seccion__caracteristicas__productos {
@@ -824,7 +824,7 @@ h4 {
   .logo-libelulita img {
     width: 85%; }
   .header2__nosotros {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     margin: auto; }
   .nosotros__texto__inferior {
     width: 75%; }
@@ -1116,19 +1116,19 @@ h4 {
   .imagen__nosotros__superior img {
     width: 90%; }
   .header__nosotros {
-    font-size: 6rem; }
+    font-size: 4.8rem; }
   .nosotros__texto__superior {
-    width: 45%; }
+    width: 35rem; }
   .seccion__caracteristicas__productos {
-    width: 45%; }
+    width: 35rem; }
   .logo-libelulita img {
     width: 40%; }
   .header2__nosotros {
-    font-size: 5rem; }
+    font-size: 3.4rem; }
   .nosotros__texto__inferior {
-    width: 45%; }
+    width: 35rem; }
   .header3__nosotros {
-    font-size: 4rem;
+    font-size: 2.8rem;
     width: 80%; }
   .contacto-titulo {
     margin-left: 10%; }
@@ -1204,6 +1204,21 @@ h4 {
   .mayoristas__txt p, .productos__txt p {
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6rem; }
+  .header__nosotros {
+    font-size: 5.5rem; }
+  .nosotros__texto__superior {
+    width: 40rem; }
+  .seccion__caracteristicas__productos {
+    width: 40rem; }
+  .logo-libelulita img {
+    width: 32rem; }
+  .header2__nosotros {
+    font-size: 3.8rem; }
+  .nosotros__texto__inferior {
+    width: 40rem; }
+  .header3__nosotros {
+    font-size: 3.2rem;
+    width: 60rem; }
   .producto .productoTexto {
     justify-content: space-between; }
     .producto .productoTexto .leyendas-productos {
