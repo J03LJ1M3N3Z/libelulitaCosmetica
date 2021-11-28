@@ -420,7 +420,7 @@ h4 {
 .productos {
   margin-top: 4rem;
   position: relative;
-  height: 70vh; }
+  height: 29rem; }
   .productos::before {
     position: absolute;
     content: "";
@@ -570,7 +570,7 @@ h4 {
 .mayoristas {
   margin-top: 4rem;
   position: relative;
-  height: 70vh; }
+  height: 28rem; }
   .mayoristas::before {
     position: absolute;
     content: "";
@@ -607,7 +607,7 @@ h4 {
       margin-left: 5rem; }
 
 .mayoristasTxt {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 3rem 1rem; }
   .mayoristasTxt h4 {
     font-family: "Montserrat", sans-serif;
