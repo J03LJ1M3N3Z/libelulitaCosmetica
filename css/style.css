@@ -1277,6 +1277,7 @@ h4 {
   .mayoristas__txt ul, .productos__txt ul, .preguntas__txt ul {
     list-style: none;
     font-size: 1.2rem;
+    padding: 0;
   }
   .mayoristas__txt ul li, .productos__txt ul li, .preguntas__txt ul li {
     font-family: "Montserrat", sans-serif;
@@ -1678,6 +1679,7 @@ h4 {
   }
   .mayoristas__txt ul, .productos__txt ul, .preguntas__txt ul {
     list-style: initial;
+    padding: initial;
   }
   .mayoristas__txt .btnProductoPink, .productos__txt .btnProductoPink, .preguntas__txt .btnProductoPink {
     margin-left: 5rem;

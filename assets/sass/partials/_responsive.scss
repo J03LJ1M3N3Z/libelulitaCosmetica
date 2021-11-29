@@ -245,6 +245,7 @@
             ul{
                 list-style: none;
                 font-size: 1.2rem;
+                padding: 0;
                 li{
                     font-family: $montserrat;
                 }
@@ -821,6 +822,7 @@
 
             ul{
                 list-style: initial;
+                padding: initial;
             }
 
             .btnProductoPink {
