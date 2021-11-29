@@ -218,7 +218,7 @@
 
 
     //SECCIiON MAYORISTAS
-    .mayoristas,.productos {
+    .mayoristas,.productos,.preguntas{
         text-align: center;
         margin-top: 1rem;
         padding-top: 2rem;
@@ -233,7 +233,7 @@
         &__txt {
             h1 {
                 font-size: 3rem;
-                line-height: 3rem;
+                line-height: 3.5rem;
                 text-align: center;
 
                 label {
@@ -260,6 +260,13 @@
                 margin-left: 0;
             }
         }
+
+        .parrafo{
+            font-size: 1.2rem;
+            max-width: 450px;
+            width: 100%;
+            margin: 1.5rem auto;
+        }
     }
 
     .mayoristasTxt {
@@ -275,6 +282,19 @@
 
     .catalogoProductos{
         margin-top: 0rem;
+    }
+
+    .seccion__preguntas{
+        margin-top: 1rem;
+    }
+
+    .titulos-preguntas{
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .seccion__preguntas{
+        text-align: center;
     }
 
     //FIN MAYORISTAS
@@ -529,8 +549,14 @@
 
 
     //SECCIiON MAYORISTAS
-    .mayoristas,.productos {
+    .mayoristas,.productos,.preguntas {
         text-align: center;
+
+        &__txt{
+            h1{
+                font-size: 4.5rem;
+            }
+        }
     }
 
     .mayoristasTxt {
@@ -542,7 +568,20 @@
         h5 {
             margin-left: 0;
         }
+
     }
+
+    .seccion__preguntas{
+        margin-top: 2.5rem;
+        text-align: justify;
+
+    }
+
+    .titulos-preguntas{
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
 
     //FIN MAYORISTAS
 
@@ -748,13 +787,13 @@
 
 
     //SECCIiON MAYORISTAS
-    .mayoristas,.productos{
+    .mayoristas,.productos,.preguntas{
         text-align: unset;
         margin-top: 1rem;
         padding-top: 2rem;
 
         &::before {
-            width: 60%;
+            width: 55%;
             opacity: 1;
         }
 
@@ -788,6 +827,24 @@
                 margin-left: 5rem;
             }
         }
+
+        .preguntas__header{
+
+            label{
+                display: none;
+            }
+
+            i{
+                margin-left: 2rem;
+            }
+    
+        }
+
+        .parrafo{
+            max-width: 350px;
+            width: 100%;
+            font-size: 1.2rem;
+        }
     }
 
     .mayoristasTxt {
@@ -804,6 +861,8 @@
     .catalogoProductos{
         margin-top: 3rem;
     }
+
+    
 
     //FIN MAYORISTAS
 }
@@ -894,15 +953,13 @@
     //FIN SECCION NOSOTROS
 
     //MAYORISTAS
-    .mayoristas,.productos{
+    .mayoristas,.productos,.preguntas{
 
         &__txt {
             h1 {
                 font-size: 5rem;
                 line-height: 5rem;
                 text-align: initial;
-
-                
             }
 
             p,ul{
@@ -922,6 +979,24 @@
             }
 
         }
+
+        .preguntas__header{
+            i{
+                margin-left: 5rem;
+            }
+        }
+
+        .parrafo{
+            max-width: 450px;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            width: 100%;
+            font-family: $montserrat;
+        }
+
+        .te-contamos{
+            margin-top: 2rem;
+        }
     }
 
     //TERMINA MAYORISTAS
@@ -930,6 +1005,7 @@
     .producto {
         .productoTexto {
             justify-content: space-between;
+            flex-wrap: nowrap;
 
             .leyendas-productos {
                 width: initial;
